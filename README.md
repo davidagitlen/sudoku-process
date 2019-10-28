@@ -1,6 +1,6 @@
 ## Sudoku Process - 
 
-Given an array of 27 arrays with a length of 3, arranged to form a 9 X 9 matrix, write a function that returns true of every column, row, and inner 3 X 3 box contains the numbers 1 - 9 exclusively. 
+Given an array of 27 arrays with a length of 3, arranged to form a 9 X 9 matrix, write a function that returns true if every column, row, and inner 3 X 3 box contains the numbers 1 - 9 exclusively. 
 
 Process: 
 
@@ -62,8 +62,4 @@ boxes.forEach(array => checkNumbersOnlyOnce(array));
 ```
 
 This could all be wrapped in a function that declares the 'check' variable at the top, runs through everything and returns it at the end. 
-
-
-
-
 
